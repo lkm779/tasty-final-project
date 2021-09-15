@@ -1,0 +1,49 @@
+#footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  list-style-type: none;
+  height: 110px;
+  margin: 10px;
+  padding: 15px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.youtube {
+  padding: 0%;
+  width: 30%;
+  color: black;
+}
+.facebook {
+  padding: 0%;
+  width: 20%;
+  text-decoration: none;
+  color: black;
+}
+.linkedin {
+  padding: 0%;
+  width: 20%;
+  text-decoration: none;
+  color: black;
+}
+
+.twitter {
+  padding: 0%;
+  width: 20%;
+  text-decoration: none;
+  color: black;
+}
+
+#footer a {
+  text-align: center;
+}
+
+.media-btn img {
+  transition: all 1s;
+}
+
+.media-btn img:hover {
+  transform: scale(2);
+}
